@@ -1,0 +1,37 @@
+:root {
+    --pb: #b3dee5;
+    /* powder blue */
+    --lo: #ffa101;
+    /* light orange */
+    --ss: #31525b;
+    /* Shakespeare */
+    --sb: #fae6b1;
+    /* Sandy Brown */
+    --w: rgb(255, 255, 255);
+    /* white */
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 48;
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: var(--sb);
+}
+
+img.logo {
+    max-width: 50px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--w);
+}
