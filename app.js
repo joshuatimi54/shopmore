@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
 const storeRoutes = require("./routes/storeRoutes");
 require("dotenv").config();
 
@@ -8,14 +8,14 @@ require("dotenv").config();
 const app = express();
 
 // connect to mongodb
-mongoose.set("strictQuery", false);
+//mongoose.set("strictQuery", false);
 
-const dbURI = process.env.URI;
+/*const dbURI = process.env.URI;
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => app.listen(4000))
   .catch((err) => console.log(err));
-
+*/
 // register view engine
 app.set("view engine", "ejs");
 
