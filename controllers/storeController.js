@@ -1,4 +1,4 @@
-const Store = require('../models/store');
+// const Store = require('../models/store');
 
 const store_index = (_req, res) => {
         res.render('home/index', { title: 'Home page' });
